@@ -26,3 +26,13 @@
 -`-n` -- will display line number of found string
 -`-A [number here]` -- will display trailing number of lines specifiec
 -`B [Number here]-- will display preceding number of lines specified
+
+#Git Commands
+**git init** -> this will add a local git repository to a directory
+**git status** -> this will show file that are untracked or tracked for the next commit
+**git add** -> will add files to staging for next commit
+-`git add [file name]` - will add individual file to staging
+-`git add .` -same above
+**git commit** -> takes staged files and creates save point / commit number
+-`git commit -m 'enter in MEANINGFUL commit message'`
+**git log** -> shows full log of all commits to master branch 
